@@ -1,0 +1,23 @@
+ul{
+  list-style-image: url("lista.png");
+  list-style-position: inside;
+  padding: 10;
+  margin: 0;
+
+  background-color: blueviolet;
+}
+
+ol{
+  list-style-type: upper-alpha;
+  list-style-position: inside;
+  padding: 10;
+  margin: 0;
+  background-color: violet;
+}
+
+li {
+  margin: 5px;
+  background-color: yellow;
+  padding: 5px;
+  border: 1px solid;
+}

@@ -1,0 +1,15 @@
+p {
+  color: red;
+  text-align: justify;
+
+  /*deixa td em maiusculo*/
+  text-transform: uppercase;
+
+  /*deixa td em minusculo*/
+  text-transform: lowercase;
+
+  /*primeira letra em maiuscula*/
+  text-transform: capitalize;
+
+  
+}
