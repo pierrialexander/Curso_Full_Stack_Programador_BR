@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <script>
+
+    function loaded() {
+      let t = document.getElementById("titulo")
+      t.addEventListener("mouseover", mudarText)
+      t.addEventListener("mouseout", mudarText2)
+      t.addEventListener("click", mudarText3)
+      
+    }
+    
+    function mudarText() {
+      this.innerHTML = "Entrou"
+    }
+
+    function mudarText2() {
+      this.innerHTML = "Saiu"
+    }
+
+    function mudarText3(input) {
+      let t = document.getElementsByTagName('h1').value
+      console.log()
+    }
+
+  </script>
+
+
+</head>
+<body onload="loaded()">
+  <h1 id="titulo">Original</h1>
+</body>
+</html>
