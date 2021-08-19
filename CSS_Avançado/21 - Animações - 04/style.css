@@ -1,0 +1,21 @@
+@keyframes changeColor {
+  0% {background-color: rgb(224, 112, 112); 
+      width: 200px;}
+  25% {background-color: rgb(96, 209, 96); 
+       width: 100px;}
+  50% {background-color: rgb(241, 241, 101); 
+       width: 400px; border-radius: 50%;}
+  100% {background-color: rgb(120, 120, 233);}
+
+}
+
+
+.box {
+  width: 200px;
+  height: 200px;
+  animation-name: changeColor;
+  animation-duration: 6s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  
+}
