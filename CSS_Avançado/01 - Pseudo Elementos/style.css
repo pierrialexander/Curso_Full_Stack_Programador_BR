@@ -1,0 +1,41 @@
+/* muda a formatação da primeira linha */
+p::first-line {
+  color: red;
+}
+
+/* Muda a primeira letra */
+p::first-letter {
+  color: blue;
+  font-size: 2rem;
+}
+
+/* Coloca um item antes */
+
+/*li::before {
+  content: "TESTE=";
+  color: red;
+  font-weight: bold;
+}*/
+
+li {
+  list-style: none;
+}
+
+li::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-image: url('ico.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+/* define um estilo para um objeto selecionado na página */
+
+*::selection {
+  background-color: yellow;
+  color: orangered;
+}

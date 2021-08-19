@@ -1,0 +1,25 @@
+:root {
+  --var-color: gray;
+  --var-color2: red;
+  --var-cor_secundaria: blue;
+  --quadrado: 300px;
+}
+
+.p2{
+  color: var(--var-color);
+}
+
+.p3 {
+  color: var(--var-color2);
+}
+
+.p1 {
+  color: var(--var-cor_secundaria);
+}
+
+.quadrado {
+  width: var(--quadrado);
+  height: var(--quadrado);
+  background-color: var(--var-cor_secundaria);
+}
+

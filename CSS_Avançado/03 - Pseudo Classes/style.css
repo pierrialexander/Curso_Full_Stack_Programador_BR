@@ -1,0 +1,55 @@
+input:focus {
+  color: red;
+   outline: none;
+}
+
+/*Primeiro filho*/
+p:first-child{
+  color: blue;
+}
+
+/*Primeiro do tipo*/
+h3:first-of-type {
+  color: red;
+}
+
+/* :nth-child() dizemos qual posição do filho */
+
+p:nth-child(3) {
+  font-size: 3rem;
+}
+
+/* Pega todos os pares */
+p:nth-child(2n) { /* ou a opção even*/
+  font-size: 2rem;
+}
+
+/* Pega todos os impares */
+p:nth-child(odd) {
+  color: green;
+}
+
+li {
+  list-style: none;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 30px;
+
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/*li:nth-of-type(even) {
+  background-color: beige;
+}
+
+li:nth-of-type(odd) {
+  background-color: gray;
+  color: white;
+}*/
+
+li:nth-of-type(3n - 2) {
+  background-color: beige;
+}
