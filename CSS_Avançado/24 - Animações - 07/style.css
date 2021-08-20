@@ -1,0 +1,48 @@
+@keyframes changeColor {
+  0% {background-color: rgb(224, 112, 112); 
+      width: 200px;
+      left: 0px}
+  25% {background-color: rgb(96, 209, 96); 
+       width: 100px;}
+  50% {background-color: rgb(241, 241, 101); 
+       width: 400px; border-radius: 50%; left: 300px}
+  100% {background-color: rgb(120, 120, 233); left: 0px}
+
+} 
+
+@keyframes move {
+  0% {left: 0px}
+  50% {left: 300px}
+  100% {left: 0px}
+}
+
+.box {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  animation-name: move;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  
+}
+
+.div1{
+  animation-timing-function: linear;
+}
+
+.div2{
+  animation-fill-mode: ease;
+}
+
+.div3{
+  animation-timing-function: ease-in;
+}
+
+.div4{
+  animation-timing-function: ease-out;
+}
+
+.div5{
+  animation-timing-function: ease-in-out;
+}
