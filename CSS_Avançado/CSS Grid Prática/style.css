@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #232332;
+}
+
+.header {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 10px;
+  }
+
+.header img {
+  margin-left: 60px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin-right: 60px;
+}
+
+.menu li {
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.menu li > a {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #232332;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+
+/*-------- CONTAINER ------------*/
+
+.container {
+  color: white;
+  width: 1000px;
+  grid-column-gap: 25px;
+  grid-row-gap: 15px;
+  margin: 0 auto; 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+
+}
+
+.container > .info {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.container > .info h2 {
+  margin-bottom: 30px;
+}
+
+.container > .send{
+  background-color: #33393F;
+  width: 600px;
+  height: 200px;
+  display: block;
+  border-radius: 20px;
+  text-align: center;
+  padding-top: 50px;
+  box-sizing: border-box;
+  
+}
+
+#input_email{
+  padding: 10px;
+  width: 380px;
+  border: none;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#send {
+  background-color: #75B73F;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+.send h3 {
+  margin-bottom: 15px;
+}
+
+.send p {
+  margin-top: 15px;
+}
+.container > .anuncio {
+  padding-top: 30px;
+  grid-row: 1 / 4;
+  width: 260px;
+  margin: 0;
+  grid-column: 2;
+  grid-column-end: auto;
+  align-self:baseline;
+}
+
+.container > .botoes {
+  display: flex;
+  max-height: 100px;
+ }
+
+ .container > .botoes > div {
+   margin: 15px;
+   align-self: center;
+   text-align: center;
+ }
+
+ .container > .botoes > div > button {
+   padding: 15px;
+   border-radius: 5px;
+   border: none;
+   margin: 20px;
+   background: #33393F;
+   color: white;
+   font-size: 1rem;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------- footer ----------*/
+.rodape {
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+}
+
+.logo_footer {
+  padding: 15px;
+}
+
+.links_footer {
+  display: flex;
+  padding: 15px;
+}
+
+#titulo_lista {
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.lista1, .lista2,
+.lista3, .lista4 {
+  color: white;
+  font-size: .9rem;
+  list-style: none;
+  margin-right: 100px;
+
+}
+
+li {
+  padding: 3px;
+}
+
+hr{
+  margin: 2rem 0px; 
+  border-top: 1px solid gray;
+}
+
+.finais {
+  margin: auto;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  color: white;
+}
